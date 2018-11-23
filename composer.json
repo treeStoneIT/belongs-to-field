@@ -1,0 +1,29 @@
+{
+    "name": "treestoneit/belongs-to-field",
+    "description": "A Laravel Nova Belongs To field that respects Eager Loading",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Treestoneit\\BelongsToField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Treestoneit\\BelongsToField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
