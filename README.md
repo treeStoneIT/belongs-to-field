@@ -40,3 +40,5 @@ public function fields(Request $request)
 ... 
 ```
 
+## Credits
+Thanks to [Michael Münch](https://github.com/laravel/nova-issues/issues/112#issuecomment-439160859) for this solution
